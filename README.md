@@ -9,7 +9,7 @@ Given the declines occurring in many insect populations around the world, there 
 
 *Datasets* —— This folder (which must be unzipped) contains digital syrphid specimen records gathered from 7 collections across North America. It consists entirely of publicly accessible records.
 
-*syrphidae_occupancy_main.R* —— This is the main script. It prepares the data, runs the model, outputs results, creates figures, etc.
+*occupancy_syrphidae_main.R* —— This is the main script. It prepares the data, runs the model, outputs results, creates figures, etc.
 
 *SyrphidModel.txt* —— This text file contains the occupancy model, written in BUGS language to be used by JAGS. To run the model, the R scripts use Rjags to interpret this file.
 
