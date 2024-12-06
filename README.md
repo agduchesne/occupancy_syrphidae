@@ -7,7 +7,7 @@ Given the declines occurring in many insect populations around the world, there 
  
 **Description of Contents**
 
-*Datasets* -- This folder contains digital syrphid specimen records gathered from 7 collections across North America. It consists entirely of publicly accessible records.
+*Datasets* -- This folder (which must be unzipped) contains digital syrphid specimen records gathered from 7 collections across North America. It consists entirely of publicly accessible records.
 
 *syrphidae_occupancy_main.R* -- This is the main script. It prepares the data, runs the model, outputs results, creates figures, etc.
 
@@ -28,3 +28,6 @@ Given the declines occurring in many insect populations around the world, there 
 *SensitivityModels.R* -- This script is used to run the occupancy model under different grid cell and time period sizes, to assess the sensitivity of my conclusions to the chosen spatial/temporal scale.
 
 *SensitivityAnalysis* -- This folder contains the model outputs for the model variants run in SensitivityModels.R.
+
+
+**NOTE: Due to file size constraints, the raw model outputs ("model.out.RData") could not be uploaded.**
