@@ -6,24 +6,24 @@ Given the declines occurring in many insect populations around the world, there 
 
 **Description of Contents**
 
-Datasets -- This folder contains digital syrphid specimen records gathered from 7 collections across North America. It consists entirely of publicly accessible records.
+*Datasets* -- This folder contains digital syrphid specimen records gathered from 7 collections across North America. It consists entirely of publicly accessible records.
 
-syrphidae_occupancy_main.R -- This is the main script. It prepares the data, runs the model, outputs results, creates figures, etc.
+*syrphidae_occupancy_main.R* -- This is the main script. It prepares the data, runs the model, outputs results, creates figures, etc.
 
-SyrphidModel.txt -- This text file contains the occupancy model, written in BUGS language to be used by JAGS. To run the model, the R scripts use Rjags to interpret this file.
+*SyrphidModel.txt* -- This text file contains the occupancy model, written in BUGS language to be used by JAGS. To run the model, the R scripts use Rjags to interpret this file.
 
-FinalModel -- This folder contains the outputs of the main script, including species tables and occupancy estimates.
+*FinalModel* -- This folder contains the outputs of the main script, including species tables and occupancy estimates.
 
-PriorPredictiveCheck.R -- This script handles the analysis and plotting of the Prior Predictive Check outputs, which must first be obtained from syrphidae_occupancy_main.R.
+*PriorPredictiveCheck.R* -- This script handles the analysis and plotting of the Prior Predictive Check outputs, which must first be obtained from syrphidae_occupancy_main.R.
 
-PriorPredCheck -- This folder contains the outputs of the Prior Predictive Check, produced by syrphidae_occupancy_main.R to be assessed/plotted in PriorPredictiveCheck.R.
+*PriorPredCheck* -- This folder contains the outputs of the Prior Predictive Check, produced by syrphidae_occupancy_main.R to be assessed/plotted in PriorPredictiveCheck.R.
 
-Simulation.R -- This script simulates data with known occupancy values, then runs the model on that data to assess the accuracy/reliability of the model.
+*Simulation.R* -- This script simulates data with known occupancy values, then runs the model on that data to assess the accuracy/reliability of the model.
 
-Simulations -- This folder contains the outputs of the simulation tests produced by Simulation.R.
+*Simulations* -- This folder contains the outputs of the simulation tests produced by Simulation.R.
 
-PosteriorPredictiveChecks.RData -- This R object is produced by syrphidae_occupancy_main.R to hold the outputs of the Posterior Predictive Checks, which simulate data using model estimates to                                        evaluate how well the model estimates can explain the real observations.
+*PosteriorPredictiveChecks.RData* -- This R object is produced by syrphidae_occupancy_main.R to hold the outputs of the Posterior Predictive Checks, which simulate data using model estimates to                                         evaluate how well the model estimates can explain the real observations.
 
-SensitivityModels.R -- This script is used to run the occupancy model under different grid cell and time period sizes, to assess the sensitivity of my conclusions to the chosen spatial/temporal                           scale.
+*SensitivityModels.R* -- This script is used to run the occupancy model under different grid cell and time period sizes, to assess the sensitivity of my conclusions to the chosen                                           spatial/temporal scale.
 
-SensitivityAnalysis -- This folder contains the model outputs for the model variants run in SensitivityModels.R.
+*SensitivityAnalysis* -- This folder contains the model outputs for the model variants run in SensitivityModels.R.
