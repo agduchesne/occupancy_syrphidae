@@ -3,8 +3,8 @@
 **Overview**
 
 Given the declines occurring in many insect populations around the world, there is an urgent need to assess large-scale trends in important groups like pollinators. Syrphidae is one of the largest families of flies and one of the most common pollinators of major crops after bees. Museum data and biological collections present unique opportunities to assess population trends over long historical timescales. Here, I use a hierarchical Bayesian multi-season, multi-species occupancy model on digital syrphid records from seven collections across North America to estimate both species-specific and overall syrphid occupancy change between the current time period (1991–2020) and two baseline time periods: recent (1961–1990) and historical (1900–1930). I also validate the accuracy and sensitivity of the model by using Prior Predictive Checks, Simulations, Posterior Predictive Checks, and a Sensitivity Analysis. Finally, I compare species traits (range size, body size, subfamily, larval feeding guild, and rot-hole specialization) between the declining and increasing species, to assess potential factors contributing to occupancy change.
-
-
+ 
+ 
 **Description of Contents**
 
 *Datasets* -- This folder contains digital syrphid specimen records gathered from 7 collections across North America. It consists entirely of publicly accessible records.
