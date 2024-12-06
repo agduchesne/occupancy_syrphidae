@@ -23,8 +23,8 @@ Given the declines occurring in many insect populations around the world, there 
 
 *Simulations* -- This folder contains the outputs of the simulation tests produced by Simulation.R.
 
-*PosteriorPredictiveChecks.RData* -- This R object is produced by syrphidae_occupancy_main.R to hold the outputs of the Posterior Predictive Checks, which simulate data using model estimates to                                         evaluate how well the model estimates can explain the real observations.
+*PosteriorPredictiveChecks.RData* -- This R object is produced by syrphidae_occupancy_main.R to hold the outputs of the Posterior Predictive Checks, which simulate data using model estimates to evaluate how well the model estimates can explain the real observations.
 
-*SensitivityModels.R* -- This script is used to run the occupancy model under different grid cell and time period sizes, to assess the sensitivity of my conclusions to the chosen                                           spatial/temporal scale.
+*SensitivityModels.R* -- This script is used to run the occupancy model under different grid cell and time period sizes, to assess the sensitivity of my conclusions to the chosen spatial/temporal scale.
 
 *SensitivityAnalysis* -- This folder contains the model outputs for the model variants run in SensitivityModels.R.
