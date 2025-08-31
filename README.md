@@ -2,7 +2,8 @@
 
 **Overview**
 
-This code is an accompaniment to the paper: 
+This code is an accompaniment to the paper:
+<br />&emsp;
 Duchesne, A.G., Des Marteaux, L., Skevington, J., Dawson, J., & Martin, A.E. Evidence of recent declines in flower flies (Diptera: Syrphidae) across North America.
 
 Given the declines occurring in many insect populations around the world, there is an urgent need to assess large-scale trends in important groups like pollinators. Syrphidae is one of the largest families of flies and one of the most common pollinators of major crops after bees. Museum data and biological collections present unique opportunities to assess population trends over long historical timescales. Here, I use a hierarchical Bayesian multi-season, multi-species occupancy model on digital syrphid records from seven collections across North America to estimate both species-specific and overall syrphid occupancy change between the current time period (1991–2020) and two baseline time periods: recent (1961–1990) and historical (1900–1930). I also validate the accuracy and sensitivity of the model by using Prior Predictive Checks, Simulations, Posterior Predictive Checks, and a Sensitivity Analysis.
