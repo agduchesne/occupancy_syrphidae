@@ -1,5 +1,7 @@
 # Assessing Historical Occupancy Trends in North American Flower Flies (Diptera: Syrphidae)
 
+Zenodo DOI: https://doi.org/10.5281/zenodo.19426016
+
 **Overview**
 
 This code is an accompaniment to the paper:
